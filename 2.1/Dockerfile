@@ -31,5 +31,8 @@ EXPOSE 2424
 #OrientDb http
 EXPOSE 2480
 
+#Hazelcast
+EXPOSE 2434
+
 # Default command start the server
 CMD ["server.sh"]
